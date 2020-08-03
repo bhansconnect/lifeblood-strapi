@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_default_sources",
+  "info": {
+    "name": "sources",
+    "icon": "link"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "url": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

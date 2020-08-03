@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_default_ranges",
+  "info": {
+    "name": "ranges",
+    "icon": "arrows-alt-h"
+  },
+  "options": {},
+  "attributes": {
+    "optimal": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "male",
+        "female",
+        "any"
+      ],
+      "default": "any",
+      "required": true
+    },
+    "minAge": {
+      "type": "integer",
+      "min": 0
+    },
+    "maxAge": {
+      "type": "integer",
+      "min": 0
+    },
+    "minValue": {
+      "type": "decimal",
+      "required": true
+    },
+    "maxValue": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}
